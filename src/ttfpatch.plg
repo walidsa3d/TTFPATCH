@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: ttfpatch - Win32 Release--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Erstellen der temporären Datei  "c:\TEMP\RSP359.tmp" mit Inhalten
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/ttfpatch.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Source\ttfpatch\ttfpatch.cpp"
+]
+Creating command line "cl.exe @c:\TEMP\RSP359.tmp" 
+Erstellen der temporären Datei  "c:\TEMP\RSP35A.tmp" mit Inhalten
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/ttfpatch.pdb" /machine:I386 /out:"Release/ttfpatch.exe" 
+.\Release\StdAfx.obj
+.\Release\ttfpatch.obj
+.\Release\woktools.obj
+]
+Erstellen der Befehlzeile "link.exe @c:\TEMP\RSP35A.tmp"
+<h3>Ausgabefenster</h3>
+Kompilierung läuft...
+ttfpatch.cpp
+Linker-Vorgang läuft...
+
+
+
+<h3>Ergebnisse</h3>
+ttfpatch.exe - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>
